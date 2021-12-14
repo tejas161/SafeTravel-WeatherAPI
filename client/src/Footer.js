@@ -46,7 +46,7 @@ const Footer = () => {
 
 
                                 <a href="https://www.facebook.com/" target="_blank"><i class="footer-fa fab fa-facebook"></i></a>
-                                
+
                                 <a href="https://www.instagram.com/" target="_blank">
                                     <i class="footer-fa fab fa-instagram"></i></a>
 
@@ -64,12 +64,13 @@ const Footer = () => {
                             <button className="btn-email"><i class="email-f-icon fas fa-envelope"></i></button>
 
                         </div>
+                        <div className="container l-footer text-white text-center mt-2">
+                            <p className=" blu-font">&copy; SafeTravel 2020-2021 All rights reserved</p>
+                        </div>
 
                     </div>
                 </div>
-                <div className="container l-footer text-white text-center mt-2">
-                    <p className=" blu-font">&copy; SafeTravel 2020-2021 All rights reserved</p>
-                </div>
+
             </section>
 
 

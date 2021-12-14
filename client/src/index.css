@@ -24,14 +24,14 @@ html{
 @media(max-width:998px)
 {
   html{
-    font-size:60%;
+    font-size:80%;
   }
 }
 
 @media(max-width:768px)
 {
   html{
-    font-size:50%;
+    font-size:70%;
   }
 }
 
@@ -69,7 +69,7 @@ body {
 /*-------------------------------------- start   of---------------------------------------------------------
 ----------------------------------------- Navbar Page ----------------------------------------------------- */
 .navbar-brand{
-  font-size:1.2rem;
+  font-size:1.8rem;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -98,8 +98,8 @@ body {
 
 
 .div-body{
-  width:40%;
-  height:25rem;
+  width:60%;
+  height:28rem;
   margin-top: 10rem;
   border:0.1rem solid white;
   
@@ -121,7 +121,7 @@ body {
 
 
 .search-heading h3 {
-  font-size:1.1rem;
+  font-size:1.2rem;
   width:90%;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.1rem solid white; /* The typwriter cursor */
@@ -146,7 +146,7 @@ body {
   border:2px solid rgb(7, 17, 165);
   background-color: rgb(40, 72, 252);
   font-family: 'Bebas Neue', cursive;
-  font-size:1.1rem;
+  font-size:1.3rem;
   color:white;
 }
 
@@ -183,7 +183,7 @@ body {
   border:2px solid rgb(187, 46, 46);
   background-color: rgb(187, 46, 46);
   font-family: 'Bebas Neue', cursive;
-  font-size:1.1rem;
+  font-size:1.3rem;
   
 
 }
@@ -204,9 +204,12 @@ body {
   
    
   
- height:57vh;
+ height:100%;
    
    width:100%;
+   position:relative;
+   bottom:0;
+   height:60vh;
 }
 .footer-div1{
   display:flex;
@@ -223,18 +226,18 @@ body {
 }
 .f-subdiv .subdiv-mainh
 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .f-subdiv .subdiv-bodyh
 {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .footer-fa {
   margin:0.2rem;
   padding: 0.6rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   width: 2.8rem;
   height:2.5rem;
   text-align: center;
@@ -294,7 +297,7 @@ body {
 
 .email-footer .btn-email:hover{
   background-color: rgb(235, 225, 211);
-  height:1.6rem;
+  height:1.5rem;
   width:2.1rem;
  
  
@@ -311,13 +314,7 @@ body {
   
 }
 
-@media(max-width:763px)
-{
-  .l-footer{
-    position:relative;
-    top:5.2rem;
-  }
-}
+
 
 /*-------------------------------------- end   of---------------------------------------------------------
 ----------------------------------------- Footer Page ----------------------------------------------------- */
@@ -332,13 +329,13 @@ body {
 }
 
 .res-mainh{
-  font-size:2rem;
+  font-size:3rem;
   text-transform: capitalize;
   
 }
 
 .res-bodyt{
-  font-size:1.5rem;
+  font-size: 2rem;
   
 }
 .fa-sun{
@@ -393,7 +390,7 @@ body {
     --webkit-border-radius: 10px;
     box-shadow:0 2.8px 2.2px rgba(0,0,0,0.034), 0 6.7px 5.3px rgba(0 ,0 ,0, 0.048),0 12.7 10.4px rgba(0 ,0 ,0, 0.088);
     overflow:hidden;
-    width:calc(100vw - 58vw);
+    width:calc(100vw - 55vw);
     max-width:100%;
    
 
@@ -402,22 +399,22 @@ body {
 
 .header{
   background:#9face6;
-  padding:0.8rem 0;
+  padding:1rem 0;
 }
 
 .header h2{
   color:#222;
 
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   text-align:center;
 }
 .form{
-  padding:2rem;
+  padding:2.1rem;
 }
 
 .form-controlf{
-  margin-bottom:1.3rem;
+  margin-bottom:1.6rem;
   position: relative;
  
 }
@@ -425,7 +422,7 @@ body {
 .form-controlf label{
   display:inline-block;
   color:black;
-  margin-bottom:0.1rem;
+  margin-bottom:0.2rem;
 }
 
 .form-controlf input{
@@ -433,8 +430,8 @@ body {
   border:2px solid rgba(202, 211, 211, 0.801);
   border-radius: 0.2rem;
   display:block;
-  font-size:0.8rem;
-  padding:0.1rem;
+  font-size:1rem;
+  padding:0.2rem;
 }
 
 .form-controlf input:focus{
@@ -462,7 +459,7 @@ body {
 .form-controlf i{
   position:absolute;
   right:8px;
-  top:33px;
+  top:35px;
   visibility: hidden;
 }
 
@@ -503,7 +500,7 @@ body {
   border:2px solid rgba(202, 211, 211, 0.801);
   border-radius: 0.2rem;
   display:block;
-  font-size:0.8rem;
+  font-size:1rem;
   padding:0.1rem;
   
   
@@ -521,7 +518,7 @@ body {
   color:#fff;
   display:block;
   
-  font-size:1rem;
+  font-size:1.2rem;
   padding:0.8rem;
   margin-top:1.2rem;
   width:100%;
@@ -537,15 +534,15 @@ body {
 }
 
 @media(max-width:998px){
-  .container-container{
+  .contact-container{
       width:calc(100vw - 40vw);
       max-width:100%;
   }
 
 .form-controlf i{
   position:absolute;
-  right:8px;
-  top:19px;
+  right:5px;
+  top:28px;
   visibility: hidden;
 }
 
@@ -556,10 +553,11 @@ body {
 
 .form-controlf i{
   position:absolute;
-  right:7px;
-  top:16px;
+  right:6px;
+  top:24px;
   visibility: hidden;
 }
+
 
 }
 /*-------------------------------------- end   of---------------------------------------------------------

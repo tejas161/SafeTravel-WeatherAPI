@@ -207,7 +207,7 @@ const Contact = () => {
     return (
         <>
             <Navbar />
-            <section className="contact-section my-2">
+            <section className="contact-section mt-4">
                 <div className="contact-container">
                     <div className="header">
                         <h2 className="font-h">Contact Us</h2>

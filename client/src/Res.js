@@ -24,7 +24,7 @@ const Res = () => {
            return(
             <p className="text-center moon res-bodyt blu-font">Moon Light <i class="far fa-moon"></i></p>
 
-           )
+           );
        }
 
     }
