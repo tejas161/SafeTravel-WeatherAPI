@@ -68,6 +68,9 @@ body {
 
 /*-------------------------------------- start   of---------------------------------------------------------
 ----------------------------------------- Navbar Page ----------------------------------------------------- */
+.p-home{
+  cursor: pointer;
+}
 .navbar-brand{
   font-size:1.8rem;
   font-family: 'Roboto', sans-serif;
@@ -76,6 +79,7 @@ body {
 .navbar-toggler:hover{
   border:2px solid rgb(13, 58, 19);
 }
+
 
 .navu-link:hover{
   background-color:rgb(83, 79, 79);

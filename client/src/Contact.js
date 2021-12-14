@@ -155,7 +155,7 @@ const Contact = () => {
                 Swal.fire({
                     icon: 'success',
                     title: 'Sucessfully sent!!',
-                    text: 'Thank for your views!!'
+                    text: 'Thank you for your views!!'
                   })
                
                   setTimeout(() => {
@@ -170,7 +170,7 @@ const Contact = () => {
         else{
             Swal.fire({
                 icon: 'question',
-                title: 'Please fill all Details',
+                title: 'Please fill all the Details',
                 text: 'Something went wrong!'
               })
             
