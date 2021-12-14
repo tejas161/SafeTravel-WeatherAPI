@@ -38,7 +38,7 @@ const Body = () => {
             var c=document.getElementById('sync');
             c.className="sync-class";
 
-        fetch(`http://api.weatherapi.com/v1/current.json?key=337eaa8e8d0647e9b62122153210412&q=${location.source}`,{
+        fetch(`https://api.weatherapi.com/v1/current.json?key=337eaa8e8d0647e9b62122153210412&q=${location.source}`,{
             method:"GET",
             headers:{
                 Accept:"application/json",
@@ -80,7 +80,7 @@ const Body = () => {
 
 
 
-        fetch(`http://api.weatherapi.com/v1/current.json?key=337eaa8e8d0647e9b62122153210412&q=${location.destination}`,{
+        fetch(`https://api.weatherapi.com/v1/current.json?key=337eaa8e8d0647e9b62122153210412&q=${location.destination}`,{
             method:"GET",
             headers:{
                 Accept:"application/json",
